@@ -12,7 +12,6 @@ app.use(cors());
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.qeddfku.mongodb.net/?retryWrites=true&w=majority`;
-// const uri = "mongodb+srv://coffeeMaster:TJSumyEF4sIcIvUK@cluster0.qeddfku.mongodb.net/?retryWrites=true&w=majority";
 
 console.log(uri);
 
